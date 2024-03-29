@@ -18,15 +18,25 @@ void input() {
 		else
 			cout << "\nMaksimum panjang array adalah 20" << endl;
 	}
-}
-{
+
 	cout << "\n--------------------" << endl;
 	cout << "nMasukan element array" << endl;
 	cout << "\n--------------------" << endl;
 
 	for (int i = 0; i < n; i++)
 	{
-		cout << << "<" << (i + 1) << ">";
+		cout << "<" << (i + 1) << ">";
 		cin >> arr[i];
 	}
+}
+
+void swap(int x, int y)
+{
+
+	int temp = arr[x];
+	arr[x] = arr[y];
+	arr[y] = temp;
+	mov_count++;
+
+
 }
